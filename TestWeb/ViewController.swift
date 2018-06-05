@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         let url = URL(string: webSite)
         UIApplication.shared.open(url!, options: [:], completionHandler: nil)
         
-    }
+    }  
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
